@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_new"
+            android:icon="@drawable/ic_create"
+            android:title="Registrar Denuncia" />
+
+    </group>
+
+    <item android:title="Perfil">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_keyboard_return"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>
